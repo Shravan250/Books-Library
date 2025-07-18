@@ -1,9 +1,12 @@
-
+import React from 'react'
+import Dashboard from './components/Dashboard'
+import Sidebar from './components/Sidebar'
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className='flex h-screen'>
+      <Sidebar />
+      <Dashboard />
     </div>
   )
 }
