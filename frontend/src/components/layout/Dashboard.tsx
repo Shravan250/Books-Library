@@ -53,7 +53,7 @@ const DashboardContent = () => {
               {/* Placeholder for Batman image */}
               <div className="absolute right-0 top-0 w-1/2 h-full bg-gradient-to-l from-gray-600 to-transparent flex items-center justify-center">
                 <div className="w-32 h-32 bg-gray-700 rounded-full flex items-center justify-center">
-                  <span className="text-4xl">🦇</span>
+                  <span className="text-4xl">🦇</span>  
                 </div>
               </div>
             </div>
